@@ -11,16 +11,26 @@ The current public release focuses on evaluation and reproducibility. Additional
 
 
 
-## 1. Create Environment:
+#### 1. Create Environment:
 
-- Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
+------
 
-- [PyTorch >= 1.3](https://pytorch.org/)
+- Python 3.8
 
-- NVIDIA GPU + [CUDA](https://developer.nvidia.com/cuda-downloads)
+- PyTorch == 2.0.0
+
+- NVIDIA GPU + CUDA
 
 - Python packages:
 
+The mamba_ssm library is needed to install with the folllowing command:
+
+  ```shell
+  pip install causal_conv1d==1.0.0
+  pip install mamba_ssm==1.0.1
+  ```
+
+You can use the following command to create the environment.
   ```shell
   pip install -r requirements.txt
   ```
