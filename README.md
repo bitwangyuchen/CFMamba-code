@@ -48,32 +48,7 @@ After downloading, place the data into 'data_root' folder. The structure of the 
 
 ## 4. Evaluation
 
-We provide evaluation scripts for five training modes corresponding to different data strategies.
 
-### Run All Models at Once
-
-```bash
-python inference.py --no_visual --config=config/infer
-```
-
-### Run Individual Modes
-
-
-Or run a specific model directly:
-
-```bash
-python inference.py --no_visual --config=config/infer/m5/dpu_5stg.yaml
-
-python inference.py --no_visual --config=config/infer/m5/ssr_5stg.yaml
-
-...
-```
-
----
-#### Notes
-- --no_visual disables visualization during evaluation.
-- All evaluation results will be automatically saved to the configured output directory.
-- Ensure that the dataset paths and checkpoint paths are correctly configured before running inference.
 
 
 
