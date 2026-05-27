@@ -46,7 +46,7 @@ All required data files are available for download, including: the test dataset 
 
 
 
-## 3. Set Up Data and Model Paths
+## 3. Set Up Data
 After downloading, place the data into 'data' folder. The structure of the 'data' folder should look like this:
 ```plaintext
   |-- data
@@ -66,7 +66,10 @@ After downloading, place the data into 'data' folder. The structure of the 'data
   |   |-- split_txt
   |   |   |-- test_list_omsiv.txt
   |   |   |-- test_list_sdm.txt
+```
 
+
+---
 
 
 ## 4. Evaluation
