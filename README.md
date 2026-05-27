@@ -58,7 +58,7 @@ After downloading, place the data into 'data' folder. The structure of the 'data
   |   |   |   |-- [OMSIV ground truth]
   |
   |   |-- SDM
-  |   |   |-- [SDM test dataset files]
+  |   |   |-- [SDM dataset files]
   |
   |   |-- SDM_ref
   |   |   |-- [hyperspectral reflectance files]
