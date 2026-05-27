@@ -17,7 +17,7 @@ from skimage.measure import compare_psnr, compare_ssim
 parser = argparse.ArgumentParser(description="SSR")
 parser.add_argument('--method', type=str, default='CFMamba_omsiv')
 parser.add_argument('--pretrained_model_path', type=str, default='./pretrain_model/OMSIV/omsiv_cfmamba.pth')
-parser.add_argument('--data_root', type=str, default='./data/omsiv')
+parser.add_argument('--data_root', type=str, default='./data/OMSIV')
 parser.add_argument('--outf', type=str, default='./output')
 parser.add_argument('--ensemble_mode', type=str, default='mean')
 parser.add_argument("--seed", type=int, default=3407)
