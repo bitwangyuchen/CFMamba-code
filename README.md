@@ -42,6 +42,7 @@ All required data files are available for download, including: the test dataset 
 | Platform      | Link         |
 |---------------|--------------|
 | Baidu Netdisk | [Link](https://pan.baidu.com/s/17HHAZUFfwje4K1ksD1nlDg)    (Access Code: `f1i9`) |
+| Google Drive  | [Link](https://drive.google.com/drive/folders/1-dUUjvWPVXMHZMAVEhOZlQr_b7OnoROQ?usp=drive_link)    |
 
 
 
@@ -73,14 +74,14 @@ After downloading, place the data into 'data' folder. The structure of the 'data
 
 
 ## 4. Evaluation
-1. Evaluate our pre-trained CFMamba model on our SDM dataset. The results will be saved in 'output', and the visualized results will be saved in 'visual'.
+1. Evaluate our pre-trained CFMamba model on our SDM dataset. The results will be saved in 'output' folder, and the visualized results will be saved in 'visual' folder.
 
 ```shell
 python test_sdm.py
 
 ```
 
-2. Evaluate our pre-trained CFMamba model on the OMSIV dataset. The results will be saved in 'output', and the visualized results will be saved in 'visual'.
+2. Evaluate our pre-trained CFMamba model on the OMSIV dataset. The results will be saved in 'output' folder, and the visualized results will be saved in 'visual' folder.
 
 ```shell
 python test_omsiv.py
