@@ -42,7 +42,7 @@ All required data files are available for download, including: the test dataset 
 | Platform      | Link         |
 |---------------|--------------|
 | Baidu Netdisk | [Link](https://pan.baidu.com/s/17HHAZUFfwje4K1ksD1nlDg)    (Access Code: `f1i9`) |
-| Google Drive  | [Link](https://drive.google.com/drive/folders/1_wYm83X_h4GGUl_0f7ZZWzEB6IPdoqxl?usp=drive_link)    |
+| Google Drive  | [Link](https://drive.google.com/drive/folders/1_wYm83X_h4GGUl_0f7ZZWzEB6IPdoqxl?usp=sharing)    |
 
 
 
